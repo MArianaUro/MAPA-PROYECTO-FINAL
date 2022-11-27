@@ -22,21 +22,22 @@ El objetivo del proyecto es predecir fraudes en transacciones financieras. Para 
   </ul>
 <li> MODELO TREE </li>
   <ul>
-  <li> Decision Tree Classifier </p>
+  <li> Decision Tree Classifier
   </ul>
 <li> MODELO ENSEMBLE</li>
   <ul>
-  <li>Random Forest Classifier</p>
-  <li>XGBoost Classifier </p>
-  <li>Cat Boost Classifier </p>
-  <li>LightBoost Classifier</p>
+  <li>Random Forest Classifier
+  <li>XGBoost Classifier 
+  <li>Cat Boost Classifier
+  <li>LightBoost Classifier
   </ul>
 
 <li>MODELO NEIGHBORS</li>
   <ul>
-  <li>KNeighbors Classifier</p>
-  <li>Nearest Centroid</p>
+  <li>KNeighbors Classifier
+  <li>Nearest Centroid
   </ul>
+
 Para la ejecución de cada modelo ulizaremos StratifiedKFold para finalizar con la Optimización Bayesiana. Por último para analizar la perfomance de cada modelo se aplicará la metrica Recall.
  </ul>
 
