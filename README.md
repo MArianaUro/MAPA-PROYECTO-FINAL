@@ -8,7 +8,7 @@ La detección de fraude en transacciones financieras ayuda a las empresas a iden
 El objetivo del proyecto es predecir fraudes en transacciones financieras. Para alcanzar este objetivo, el trabajo se estructura de la siguiente forma: 
 
 <ol>
-<li> Búsqueda de data set: para iniciar nuestro trabajo, realizamos una búsqueda del data set en Keagle. Para poder descargar el data set, hacer clic en el siguiente link:
+<li> Búsqueda de data set: para iniciar nuestro trabajo, realizamos una búsqueda del data set en Keagle. Para poder descargar el data set, hacer clic en el siguiente link: https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud
 
 <li> Análisis del Dataset: se realizará un análisis preliminar de la data, para identificar cantidad de registros y variables. Respecto a estas últimas se realizará un análisis de  Data Wrangling y análisis exploratorio (EDA) de la misma (análisis univariado, bivariado y multivariado).  
 
