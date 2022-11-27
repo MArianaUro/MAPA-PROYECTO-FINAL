@@ -16,8 +16,8 @@ El objetivo del proyecto es predecir fraudes en transacciones financieras. Para 
 
 <ul>
 <li>MODELO LINEAL</li> 
-<p>Logistic Regression</p>
-<p>Ridge Classifier</p>
+ <li>Logistic Regression
+ <li>Ridge Classifier
 
  <li> MODELO TREE </li>
   <p> Decision Tree Classifier </p>
@@ -33,8 +33,8 @@ El objetivo del proyecto es predecir fraudes en transacciones financieras. Para 
  <p>Nearest Centroid</p>
 <p>Para la ejecución de cada modelo ulizaremos StratifiedKFold para finalizar con la Optimización Bayesiana. Por último para analizar la perfomance de cada modelo se aplicará la metrica Recall.
  <ul>
- 
-  <li>	Finalmente, en base a los resultado seleccionaremos los mejores modelos para construir un modelo ensamblado, utilizando stacking.
+
+<li>	Finalmente, en base a los resultado seleccionaremos los mejores modelos para construir un modelo ensamblado, utilizando stacking.
 </ol>
 
 Project Organization
