@@ -20,18 +20,23 @@ El objetivo del proyecto es predecir fraudes en transacciones financieras. Para 
   <li>Logistic Regression
   <li>Ridge Classifier
   </ul>
- <li> MODELO TREE </li>
+<li> MODELO TREE </li>
+  <ul>
   <p> Decision Tree Classifier </p>
-
-  <li> MODELO ENSEMBLE</li>
+  </ul>
+<li> MODELO ENSEMBLE</li>
+  <ul>
   <p>Random Forest Classifier</p>
   <p>XGBoost Classifier </p>
   <p>Cat Boost Classifier </p>
- <p>LightBoost Classifier</p>
+  <p>LightBoost Classifier</p>
+  </ul>
 
- <li>MODELO NEIGHBORS</li>
- <p>KNeighbors Classifier</p>
- <p>Nearest Centroid</p>
+<li>MODELO NEIGHBORS</li>
+  <ul>
+  <p>KNeighbors Classifier</p>
+   <p>Nearest Centroid</p>
+  </ul>
 <p>Para la ejecución de cada modelo ulizaremos StratifiedKFold para finalizar con la Optimización Bayesiana. Por último para analizar la perfomance de cada modelo se aplicará la metrica Recall.
  </ul>
 
