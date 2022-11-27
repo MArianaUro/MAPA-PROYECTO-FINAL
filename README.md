@@ -37,9 +37,10 @@ El objetivo del proyecto es predecir fraudes en transacciones financieras. Para 
   <li>KNeighbors Classifier
   <li>Nearest Centroid
   </ul>
+</ul>
 
 Para la ejecución de cada modelo ulizaremos StratifiedKFold para finalizar con la Optimización Bayesiana. Por último para analizar la perfomance de cada modelo se aplicará la metrica Recall.
- </ul>
+ 
 
 <li>	Finalmente, en base a los resultado seleccionaremos los mejores modelos para construir un modelo ensamblado, utilizando stacking.
 </ol>
