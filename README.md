@@ -15,9 +15,10 @@ El objetivo del proyecto es predecir fraudes en transacciones financieras. Para 
 <li> Machine learning (ML): se entrenarán distintos modelos de clasificación, tomando como referencia el modelo Logistic Regression:
 
 <ul>
-<li>MODELO LINEAL</ul> 
- <li>Logistic Regression
- <li>Ridge Classifier
+<li>MODELO LINEAL</li> 
+  <li>Logistic Regression
+  <li>Ridge Classifier
+ </ul>
  <li> MODELO TREE </li>
   <p> Decision Tree Classifier </p>
 
