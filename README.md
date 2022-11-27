@@ -1,7 +1,49 @@
 data-science-template
 ==============================
+## <span style="color:red">PROYECTO DE DETECCIÓN Y PREVENCIÓN DE FRAUDE</span>
 
-A short description of the project.
+### Descripción de Proyecto
+
+La detección de fraude en transacciones financieras ayuda a las empresas a identificar transacciones de alto riego. Es por ello, que cobra vital importancia realizar un análisis basado en algoritmos para evaluar el riesgo potencial de cada transacción.
+El objetivo del proyecto es predecir fraudes en transacciones financieras. Para alcanzar este objetivo, el trabajo se estructura de la siguiente forma: 
+
+<ol>
+<li> Búsqueda de data set: para iniciar nuestro trabajo, realizamos una búsqueda del data set en Keagle. Para poder descargar el data set, hacer clic en el siguiente link: https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud
+
+<li> Análisis del Dataset: se realizará un análisis preliminar de la data, para identificar cantidad de registros y variables. Respecto a estas últimas se realizará un análisis de  Data Wrangling y análisis exploratorio (EDA) de la misma (análisis univariado, bivariado y multivariado).  
+
+<li> Machine learning (ML): se entrenarán distintos modelos de clasificación, tomando como referencia el modelo Logistic Regression:
+
+<ul>
+<li>MODELO LINEAL</li> 
+  <ul>
+  <li>Logistic Regression
+  <li>Ridge Classifier
+  </ul>
+<li> MODELO TREE </li>
+  <ul>
+  <li> Decision Tree Classifier
+  </ul>
+<li> MODELO ENSEMBLE</li>
+  <ul>
+  <li>Random Forest Classifier
+  <li>XGBoost Classifier 
+  <li>Cat Boost Classifier
+  <li>LightBoost Classifier
+  </ul>
+
+<li>MODELO NEIGHBORS</li>
+  <ul>
+  <li>KNeighbors Classifier
+  <li>Nearest Centroid
+  </ul>
+</ul>
+
+Para la ejecución de cada modelo ulizaremos StratifiedKFold para finalizar con la Optimización Bayesiana. Por último para analizar la perfomance de cada modelo se aplicará la metrica Recall.
+ 
+
+<li>	Finalmente, en base a los resultado seleccionaremos los mejores modelos para construir un modelo ensamblado, utilizando stacking.
+</ol>
 
 Project Organization
 ------------
