@@ -1,7 +1,39 @@
 data-science-template
 ==============================
+## PROYECTO DE DETECCIÓN Y PREVENCIÓN DE FRAUDE
 
-A short description of the project.
+### Descripción de Proyecto
+
+La detección de fraude en transacciones financieras ayuda a las empresas a identificar transacciones de alto riego. Es por ello, que cobra vital importancia realizar un análisis basado en algoritmos para evaluar el riesgo potencial de cada transacción.
+El objetivo del proyecto es predecir fraudes en transacciones financieras. Para alcanzar este objetivo, el trabajo se estructura de la siguiente forma: 
+
+<ol>
+<li> Búsqueda de data set: para iniciar nuestro trabajo, realizamos una búsqueda del data set en Keagle. Para poder descargar el data set, hacer clic en el siguiente link:
+
+<li> Análisis del Dataset: se realizará un análisis preliminar de la data, para identificar cantidad de registros y variables. Respecto a estas últimas se realizará un análisis de  Data Wrangling y análisis exploratorio (EDA) de la misma (análisis univariado, bivariado y multivariado).  
+
+<li> Machine learning (ML): se entrenarán distintos modelos de clasificación, tomando como referencia el modelo Logistic Regression:
+
+<ul>
+<li>    MODELO LINEAL   
+        Logistic Regression
+     Ridge Classifier
+
+ <li> MODELO TREE
+      Decision Tree Classifier
+
+  MODELO ENSEMBLE
+  Random Forest Classifier
+  XGBoost Classifier
+  Cat Boost Classifier
+  LightBoost Classifier
+
+  MODELO NEIGHBORS  
+  KNeighbors Classifier
+  Nearest Centroid
+Para la ejecución de cada modelo ulizaremos StratifiedKFold para finalizar con la Optimización Bayesiana. Por último para analizar la perfomance de cada modelo se aplicará la metrica Recall.
+4.	Finalmente, en base a los resultado seleccionaremos los mejores modelos para construir un modelo ensamblado, utilizando stacking.
+
 
 Project Organization
 ------------
