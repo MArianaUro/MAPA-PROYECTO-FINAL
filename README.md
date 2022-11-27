@@ -16,16 +16,16 @@ El objetivo del proyecto es predecir fraudes en transacciones financieras. Para 
 
 <ul>
 <li>MODELO LINEAL</li> 
-        Logistic Regression
-        Ridge Classifier
+        Logistic Regression </li>
+        Ridge Classifier</li>
 
- <li> MODELO TREE
-      Decision Tree Classifier
+ <li> MODELO TREE </li>
+      Decision Tree Classifier </li>
 
-  MODELO ENSEMBLE
-  Random Forest Classifier
-  XGBoost Classifier
-  Cat Boost Classifier
+  MODELO ENSEMBLE</li>
+  Random Forest Classifier</li>
+  XGBoost Classifier </li>
+  Cat Boost Classifier </li>
   LightBoost Classifier
 
   MODELO NEIGHBORS  
