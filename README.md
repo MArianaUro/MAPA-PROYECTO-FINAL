@@ -16,8 +16,8 @@ El objetivo del proyecto es predecir fraudes en transacciones financieras. Para 
 
 <ul>
 <li>MODELO LINEAL</li> 
-        <li>Logistic Regression</li>
-        Ridge Classifier
+<p>Logistic Regression
+<p> Ridge Classifier
 
  <li> MODELO TREE </li>
       Decision Tree Classifier </li>
